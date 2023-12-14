@@ -3,6 +3,9 @@ import Navbar from './components/navbar/Navbar';
 import Hero from './components/hero/Hero'
 import {Helmet} from "react-helmet"
 import About from './components/about/About';
+import Events from './components/events/Events';
+import Sponsor from './components/sponsor/Sponsor';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -12,7 +15,10 @@ function App() {
         </Helmet>
         <Navbar/>
         <Hero/>
-        <About id="about"/>
+        <About/>
+        <Events/>
+        <Sponsor/>
+        <Footer/>
       </div>
   );
 }

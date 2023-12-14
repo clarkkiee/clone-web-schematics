@@ -12,3 +12,7 @@
     font-family: "atmospheric";
     src: url("../public/fonts/aAtmospheric.ttf");
   }
+
+::-webkit-scrollbar {
+  display:none;
+}
