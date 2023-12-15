@@ -13,12 +13,14 @@ function App() {
         <Helmet>
           <title>Schematics 2023 x UBS Gold</title>
         </Helmet>
-        <Navbar/>
-        <Hero/>
-        <About/>
-        <Events/>
-        <Sponsor/>
-        <Footer/>
+        <div className='overflow-hidden box-border'>
+          <Navbar/>
+          <Hero/>
+          <About/>
+          <Events/>
+          <Sponsor/>
+          <Footer/>
+        </div>
       </div>
   );
 }

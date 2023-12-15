@@ -1,8 +1,17 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import schlogo from '../../img/schlogo.png'
 import NotesIcon from '@mui/icons-material/Notes';
+import Drawer from '@mui/material/Drawer';
+import DrawerComponent from './DrawerComponent';
 
 function Navbar() {
+
+    const [showDrawer, setShowDrawer] = useState(false)
+
+    function handlerMenu() {
+        setShowDrawer(!showDrawer);
+    }
+
   return (
     <>
         <header>
@@ -13,9 +22,12 @@ function Navbar() {
                     </div>
                     <h1 className='flex font-primary text-white text-xs'>Schematics 2023 X UBS GOLD</h1>
                 </div>
-                <div className='flex p-2 text-white transform -scale-x-100'>
-                    <button>
+                <div className='flex p-2 text-white transform -scale-x-100 '>
+                    <button className='' onClick={handlerMenu}>
                         <NotesIcon/>
+                        { 
+                            <Drawer open={showDrawer} children={<DrawerComponent/>} anchor='left'/>
+                        }
                     </button>
                 </div>
             </div>

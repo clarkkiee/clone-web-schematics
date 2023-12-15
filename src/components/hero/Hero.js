@@ -25,7 +25,7 @@ function Hero() {
     <>
         <section id='hero' className='flex flex-col min-h-[600px] max-h-[740px] h-screen w-full'>
             <div className='absolute flex overflow-x-hidden w-full h-[120vh]'>
-                <div className='relative -z-[100] flex-1'>
+                <div className='relative -z-[100] flex-1 overflow-x-hidden'>
                     <div className='absolute left-0 w-[16%] top-16' data-aos="fade-right" data-aos-duration="500">
                         <figure className='w-full -translate-x-1/3'>
                             <span className='box-border block overflow-hidden relative'>
@@ -125,9 +125,9 @@ function Hero() {
 
                 </div>
             </div>
-            <div className='flex relative min-h-screen top-24 items-center w-full'>
+            <div className='flex relative min-h-screen top-24 items-center mx-auto'>
                 <div className=' w-full' data-aos="fade-up">
-                        <div className='flex  w-full flex-col items-center text-[rgb(33,33,33)] font-primary'>
+                        <div className='flex w-[100vw] flex-col items-center text-[rgb(33,33,33)] font-primary'>
                             <div className='mb-8'>
                                 <img className='h-[10px]' src={HeroHat} alt='hero-hat'></img>
                             </div>
