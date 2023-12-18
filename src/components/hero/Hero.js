@@ -125,19 +125,19 @@ function Hero() {
 
                 </div>
             </div>
-            <div className='flex relative min-h-screen top-24 items-center mx-auto'>
+            <div className='flex relative min-h-screen top-24 items-center mx-auto '>
                 <div className=' w-full' data-aos="fade-up">
                         <div className='flex w-[100vw] flex-col items-center text-[rgb(33,33,33)] font-primary'>
-                            <div className='mb-8'>
+                            <div className='mb-8 lg:mb-6 lg:scale-150'>
                                 <img className='h-[10px]' src={HeroHat} alt='hero-hat'></img>
                             </div>
-                            <h1 className='text-2xl'>SCHEMATICS 2023</h1>
-                            <h6 className='text-2xl'>X</h6>
-                            <h1 className='text-2xl'>UBS GOLD</h1>
-                            <div className='flex flex-row items-center gap-4'>
-                                <div className='border-[0.5px] w-[40px] h-0'></div>
+                            <h1 className='text-2xl lg:text-6xl lg:m-2'>SCHEMATICS 2023</h1>
+                            <h6 className='text-2xl '>X</h6>
+                            <h1 className='text-2xl lg:text-6xl lg:m-2'>UBS GOLD</h1>
+                            <div className='flex flex-row items-center gap-4 lg:m-2 lg:scale-125'>
+                                <div className='border-[0.5px] w-[40px] h-0 lg:w-[180px]'></div>
                                 <h1 className='font-sans text-md text-[rgb(104,112,131)] tracking-widest font-medium'>MUDA BERBUDAYA</h1>
-                                <div className='border-[0.5px] w-[40px] h-0'></div>
+                                <div className='border-[0.5px] w-[40px] h-0 lg:w-[180px]'></div>
                             </div>
                             <a href={'/about'}>
                                 <div className='flex mt-8 justify-center items-center ring-[rgb(33,33,33)] rounded-full ring-2 w-12 h-12 animate-bounce cursor-pointer'>
