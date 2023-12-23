@@ -17,7 +17,7 @@ function Navbar() {
     <>
         <header>
             <div className='flex w-full justify-between bg-[rgb(33,33,33)] p-2 py-4 fixed z-50 md:px-[7%]'>
-                <div className='flex flex-row items-center gap-2 p-2'>
+                <div className='flex flex-row items-center gap-3 p-2'>
                     <div className='w-7 lg:w-10'>
                             <img src={schlogo} alt='logo'/>
                     </div>

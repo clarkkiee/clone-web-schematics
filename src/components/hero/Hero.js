@@ -26,7 +26,8 @@ function Hero() {
         <section id='hero' className='flex flex-col min-h-[600px] max-h-[740px] h-screen w-full'>
             <div className='absolute flex overflow-x-hidden w-full h-[120vh]'>
                 <div className='relative -z-[100] flex-1 overflow-x-hidden'>
-                    <div className='absolute left-0 w-[16%] top-16' data-aos="fade-right" data-aos-duration="500">
+                    
+                    <div className='absolute left-0 w-[16%] top-16 lg:w-[10%] lg:left-12 lg:top-24' data-aos="fade-right" data-aos-duration="500">
                         <figure className='w-full -translate-x-1/3'>
                             <span className='box-border block overflow-hidden relative'>
                                 <img src={npc1} alt='hero-1'/>
@@ -34,7 +35,7 @@ function Hero() {
                         </figure>
                     </div>
 
-                    <div className='absolute left-16 w-[16%] top-11' data-aos="fade-right" data-aos-duration="200" data-aos-delay="500">
+                    <div className='absolute left-16 w-[16%] top-11 lg:w-[11%] lg:top-[10%] lg:left-60' data-aos="fade-right" data-aos-duration="200" data-aos-delay="500">
                         <figure className='w-full'>
                             <span className='box-border block'>
                                 <img src={npc3} alt='hero-1'/>
@@ -42,7 +43,7 @@ function Hero() {
                         </figure>
                     </div>
 
-                    <div className='absolute top-40 left-12 w-[16%]' data-aos="fade-right" data-aos-duration="200" data-aos-delay="300">
+                    <div className='absolute top-40 left-12 w-[16%] lg:w-[8%] lg:mt-[5%] lg:ml-[10%]' data-aos="fade-right" data-aos-duration="200" data-aos-delay="300">
                         <figure className='w-full -translate-x-1/3'>
                             <span className='box-border block'>
                                 <img src={npc2} alt='hero-1'/>
@@ -50,7 +51,7 @@ function Hero() {
                         </figure>
                     </div>
 
-                    <div className='absolute -right-[60px] w-[16%] top-[58px]' data-aos="fade-left" data-aos-duration="500">
+                    <div className='absolute -right-[60px] w-[16%] top-[58px] lg:w-[9%] lg:mt-[2%] lg:mr-[4%]' data-aos="fade-left" data-aos-duration="500">
                         <figure className='w-full -translate-x-1/3'>
                             <span className='box-border block'>
                                 <img src={nlc1} alt='hero-1'/>
@@ -58,7 +59,7 @@ function Hero() {
                         </figure>
                     </div>
 
-                    <div className='absolute right-[70px] w-[13%] top-[70px]' data-aos="fade-left" data-aos-duration="200" data-aos-delay="500">
+                    <div className='absolute right-[70px] w-[13%] top-[70px] lg:w-[9%] lg:mr-[14%] lg:mt-[2%]' data-aos="fade-left" data-aos-duration="200" data-aos-delay="500">
                         <figure className='w-full'>
                             <span className='box-border block'>
                                 <img src={nlc2} alt='hero-1'/>
@@ -66,7 +67,7 @@ function Hero() {
                         </figure>
                     </div>
 
-                    <div className='absolute top-44 -right-2 w-[16%]' data-aos="fade-left" data-aos-duration="200" data-aos-delay="300">
+                    <div className='absolute top-44 -right-2 w-[16%] lg:w-[10%] lg:mt-[4%]' data-aos="fade-left" data-aos-duration="200" data-aos-delay="300">
                         <figure className='w-full -translate-x-1/3'>
                             <span className='box-border block'>
                                 <img src={nlc3} alt='hero-1'/>
@@ -74,7 +75,7 @@ function Hero() {
                         </figure>
                     </div>
 
-                    <div className='absolute left-16 w-[16%] top-[600px]' data-aos="fade-right" data-aos-duration="500" data-aos-anchor-placement="bottom-bottom" >
+                    <div className='absolute left-16 w-[16%] top-[600px] lg:w-[11%] lg:-mt-[8%] lg:ml-[10%]' data-aos="fade-right" data-aos-duration="500" data-aos-anchor-placement="center-bottom" >
                         <figure className='w-full -translate-x-1/3'>
                             <span className='box-border block'>
                                 <img src={bst1} alt='hero-1'/>
@@ -82,7 +83,7 @@ function Hero() {
                         </figure>
                     </div>
 
-                    <div className='absolute left-0 w-[10%] top-[680px]' data-aos="fade-right" data-aos-duration="200" data-aos-delay="500" data-aos-anchor-placement="bottom-bottom">
+                    <div className='absolute left-0 w-[10%] top-[680px] lg:w-[8%] lg:-mt-[8%] ' data-aos="fade-right" data-aos-duration="200" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
                         <figure className='w-full'>
                             <span className='box-border block'>
                                 <img src={bst2} alt='hero-1'/>
@@ -90,7 +91,7 @@ function Hero() {
                         </figure>
                     </div>
 
-                    <div className='absolute left-16 top-[740px] w-[28%]' data-aos="fade-right" data-aos-duration="200" data-aos-delay="300" data-aos-anchor-placement="bottom-bottom">
+                    <div className='absolute left-16 top-[740px] w-[28%] lg:w-[16%] lg:-mt-[6%] lg:ml-[10%]' data-aos="fade-right" data-aos-duration="200" data-aos-delay="300" data-aos-anchor-placement="center-bottom">
                         <figure className='w-full -translate-x-1/3'>
                             <span className='box-border block'>
                                 <img src={bst3} alt='hero-1'/>
@@ -99,7 +100,7 @@ function Hero() {
                     </div>
 
 
-                    <div className='absolute -right-8 w-[25%] top-[520px]' data-aos="fade-right" data-aos-duration="500" data-aos-anchor-placement="center-bottom">
+                    <div className='absolute -right-8 w-[25%] top-[520px] lg:w-[18%] lg:-mt-[18%] lg:-mr-[4%]' data-aos="fade-right" data-aos-duration="500" data-aos-anchor-placement="center-bottom">
                         <figure className='w-full -translate-x-1/3'>
                             <span className='box-border block'>
                                 <img src={rv1} alt='hero-1'/>
@@ -107,7 +108,7 @@ function Hero() {
                         </figure>
                     </div>
 
-                    <div className='absolute right-24 w-[12%] top-[680px]' data-aos="fade-right" data-aos-duration="200" data-aos-delay="500" data-aos-anchor-placement="bottom-bottom">
+                    <div className='absolute right-24 w-[12%] top-[680px] lg:-mt-[4%] lg:w-[9%] lg:mr-[16%]' data-aos="fade-left" data-aos-duration="200" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
                         <figure className='w-full'>
                             <span className='box-border block'>
                                 <img src={rv2} alt='hero-1'/>
@@ -115,7 +116,7 @@ function Hero() {
                         </figure>
                     </div>
 
-                    <div className='absolute -right-4 top-[745px] w-[22%]' data-aos="fade-left" data-aos-duration="200" data-aos-delay="300" data-aos-anchor-placement="bottom-bottom">
+                    <div className='absolute -right-4 top-[745px] w-[22%] lg:w-[14%] lg:-mt-[6%]' data-aos="fade-left" data-aos-duration="200" data-aos-delay="300" data-aos-anchor-placement="center-bottom">
                         <figure className='w-full -translate-x-1/3'>
                             <span className='box-border block'>
                                 <img src={rv3} alt='hero-1'/>
