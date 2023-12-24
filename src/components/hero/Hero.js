@@ -140,7 +140,7 @@ function Hero() {
                                 <h1 className='font-sans text-md text-[rgb(104,112,131)] tracking-widest font-medium'>MUDA BERBUDAYA</h1>
                                 <div className='border-[0.5px] w-[40px] h-0 lg:w-[180px]'></div>
                             </div>
-                            <a href={'/about'}>
+                            <a href={'/'}>
                                 <div className='flex mt-8 justify-center items-center ring-[rgb(33,33,33)] rounded-full ring-2 w-12 h-12 animate-bounce cursor-pointer'>
                                     <div className='flex justify-center '>
                                         <KeyboardArrowDownIcon/>

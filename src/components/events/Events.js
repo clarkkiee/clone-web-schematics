@@ -54,7 +54,7 @@ function Events() {
             </div>
 
             <div className='flex flex-col gap-2 lg:flex-row items-center lg:mt-32 '>
-                <img className='flex w-[70%] mt-28 my-8 ml-10 lg:w-[40%]' src={npc} alt='reeva' data-aos="fade-right" data-aos-duration="500"/>
+                <img className='flex w-[70%] mt-28 my-8 ml-10 mx-auto lg:w-[40%]' src={npc} alt='reeva' data-aos="fade-right" data-aos-duration="500"/>
                 <div className='lg:pl-20'>
                     <div className='w-max px-2 text-white font-bold border-t-[28px] border-r-[13px] border-t-rose-600 border-r-transparent lg:scale-125 lg:ml-4'>
                         <h3 className='h-0 relative -top-6 text-sm'>Schematics NPC</h3>
@@ -67,9 +67,8 @@ function Events() {
                 </div>
             </div>
 
-            <div className='flex flex-col gap-2 items-center justify-center lg:flex-row-reverse lg:pr-32'>
-                
-                <img className='flex w-[70%] mt-28 my-8 ml-10 lg:w-[28%]' src={bst} alt='reeva' data-aos="fade-left" data-aos-duration="500"/>
+            <div className='flex flex-col gap-2 items-center justify-center lg:flex-row-reverse lg:pr-32'>    
+                <img className='flex w-[70%] mt-28 my-8 ml-10 mx-auto lg:w-[28%]' src={bst} alt='reeva' data-aos="fade-left" data-aos-duration="500"/>
                 <div className='lg:pl-20'>
                     <div className='w-max px-2 text-white font-bold border-t-[28px] border-r-[13px] border-green-500 border-r-transparent lg:scale-125 lg:ml-4'>
                         <h3 className='h-0 relative -top-6 text-sm'>Schematics BST</h3>
