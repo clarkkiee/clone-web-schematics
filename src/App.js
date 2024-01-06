@@ -6,6 +6,8 @@ import About from './components/about/About';
 import Events from './components/events/Events';
 import Sponsor from './components/sponsor/Sponsor';
 import Footer from './components/Footer/Footer';
+import { SpeedInsights } from '@vercel/speed-insights/next';
+
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
           <Sponsor/>
           <Footer/>
         </div>
+        <SpeedInsights/>
       </div>
   );
 }
