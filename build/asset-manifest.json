@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c2d185be.css",
+    "main.js": "/static/js/main.c62a20cd.js",
+    "static/media/background-nlc-1.webp": "/static/media/background-nlc-1.535ef430f433e3d564eb.webp",
+    "static/media/illustration-bst.webp": "/static/media/illustration-bst.b94a174e2161a8d59ae4.webp",
+    "static/media/illustration-reeva.webp": "/static/media/illustration-reeva.0aa081c3279d69bf0376.webp",
+    "static/media/illustration-nlc.webp": "/static/media/illustration-nlc.23dbaef01ef16d2edf38.webp",
+    "static/media/illustration-npc.webp": "/static/media/illustration-npc.4d4e897c8751b1df705f.webp",
+    "static/media/background-nlc-2.webp": "/static/media/background-nlc-2.50a57d610625ce9224cf.webp",
+    "static/media/bg-hero-bst-3.webp": "/static/media/bg-hero-bst-3.309538b4145ee4eeb402.webp",
+    "static/media/about-1.webp": "/static/media/about-1.2a711851056c8c9dfd25.webp",
+    "static/media/about-3.webp": "/static/media/about-3.38818cfb8c5f8800a7d4.webp",
+    "static/media/bg-hero-reeva-1.webp": "/static/media/bg-hero-reeva-1.339f2892e023355ac936.webp",
+    "static/media/about-2.webp": "/static/media/about-2.19d7c4480d5bfaa4e6d4.webp",
+    "static/media/schlogo.png": "/static/media/schlogo.cf74325437bf49a2740a.png",
+    "static/media/aAtmospheric.ttf": "/static/media/aAtmospheric.f7d9830b308ca5f8ee22.ttf",
+    "static/media/bg-hero-reeva-3.webp": "/static/media/bg-hero-reeva-3.dcd3aad7df34b5572500.webp",
+    "static/media/bg-hero-npc-3.webp": "/static/media/bg-hero-npc-3.7648767afa5b3bb35270.webp",
+    "static/media/bg-hero-nlc-3.webp": "/static/media/bg-hero-nlc-3.832cbf9a1771174ec49e.webp",
+    "static/media/bg-hero-nlc-2.webp": "/static/media/bg-hero-nlc-2.148450b63a3075d37248.webp",
+    "static/media/bg-hero-bst-1.webp": "/static/media/bg-hero-bst-1.e680eed2553998474b1e.webp",
+    "static/media/bg-hero-npc-1.webp": "/static/media/bg-hero-npc-1.b2981c88e319e7547c48.webp",
+    "static/media/bg-hero-bst-2.webp": "/static/media/bg-hero-bst-2.34b43b696be5f9a72804.webp",
+    "static/media/bg-hero-reeva-2.webp": "/static/media/bg-hero-reeva-2.e106585fd6de45f1fa5c.webp",
+    "static/media/bg-hero-npc-2.webp": "/static/media/bg-hero-npc-2.1dd451786ae322498425.webp",
+    "static/media/bg-hero-nlc-1.webp": "/static/media/bg-hero-nlc-1.32422a2945ddebdde956.webp",
+    "static/media/schlogo.webp": "/static/media/schlogo.f17c584c3cea9ad26b30.webp",
+    "index.html": "/index.html",
+    "main.c2d185be.css.map": "/static/css/main.c2d185be.css.map",
+    "main.c62a20cd.js.map": "/static/js/main.c62a20cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2d185be.css",
+    "static/js/main.c62a20cd.js"
+  ]
+}
